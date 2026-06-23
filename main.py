@@ -4,6 +4,7 @@ from telethon.errors import FloodWaitError
 import asyncio
 import os
 import time
+import random
 
 # ========== CONFIG FROM ENVIRONMENT VARIABLES ==========
 STRING_SESSION = os.environ.get('STRING_SESSION', '')
